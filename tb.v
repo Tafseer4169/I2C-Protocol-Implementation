@@ -1,5 +1,7 @@
 `timescale 1ns/1ps
 
+`include "top.v"
+
 module tb_i2c_top;
 
 reg clk;
