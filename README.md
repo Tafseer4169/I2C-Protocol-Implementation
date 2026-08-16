@@ -24,7 +24,6 @@ A Verilog implementation of the **Inter-Integrated Circuit (I²C)** protocol fea
 ```
 ├── i2c_master.v      // I2C Master Controller
 ├── i2c_slave.v       // I2C Slave Controller
-├── i2c_top.v         // Top module connecting master and slave
 ├── tb_i2c.v          // Testbench
 └── README.md
 ```
@@ -119,8 +118,8 @@ Therefore,
 
 | Parameter | Value |
 |-----------|------:|
-|System Clock|40 MHz|
-|I²C Clock|100 kHz|
+|System Clock|100 MHz|
+|I²C Clock|400 kHz|
 |Address Width|7-bit|
 |Data Width|8-bit|
 
